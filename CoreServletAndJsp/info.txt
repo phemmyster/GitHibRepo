@@ -1,0 +1,35 @@
+This one worked but i had to use the normal servlet instead of their method
+Each servlet has a its own html page that work with it
+LINE 57 on submitResume.html: yet to create the see our policy page and link it up
+
+the protectedpage.java aint running yet to resolve the issue
+shadowtext.html with its java associate aint working keep getting this error:
+	[java.lang.NoClassDefFoundError: Acme/JPM/Encoders/GifEncoder
+	coreservlets.MessageImage.sendAsGIF(MessageImage.java:68)
+	coreservlets.ShadowedText.doGet(ShadowedText.java:45)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)]
+	
+	having issue with the shopping cart which consist of the following
+catalogue.java
+itemorder.java
+item.java
+shoppingcat.java
+orderpage.java
+kidbookspage
+techbookpage
+catalogpage
+
+i am suspecting that the issue is with d servlet naming in the catalogpage
+
+************************
+page 310 aint running well due to outdated java, bt d code is right. try update java and re-rn shadowtextapplet.jsp
+
+***************************
+for any of the shareCounts1,2 or 3, add ?itemID=a1233&numItems=11&discountCode=0.95
+
+*********************
+
+for the taglib, i have to create different example by adding a number to the csajsp-tablib, the no r respectively 4 each java class in coreservlet.tags folder
+	
