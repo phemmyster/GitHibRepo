@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Springs Park Home Page</title>
+<link href="css/springspark01.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+</style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('images/groupvisits2.png','images/zooexperiences2.png','images/snakesalive2.png')">
+<div class="container">
+  <header><img src="images/2007-04-28 WLP Billabong Pelican 002 - Original.jpg" width="1020" height="150" alt=""/></header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="newarrivals.html">New Arrivals</a></li>
+      <li><a href="openingtimes.html">Opening Times</a></li>
+      <li><a href="parkmap.html">Park Map</a></li>
+    </ul>
+  </nav>
+  <div class="sidebar1">
+    <p>&nbsp;</p>
+    <p><img src="images/firstplace.png" alt="" width="93" height="126" class="centeredimage"/></p>
+    <p>Best wildlife park 2013</p>
+  <!-- end .sidebar1 --></div>
+  <article class="content">
+    <h1>Welcome to Springs Park</h1>
+     
+    <p>For our opening times, please click <a href="openingtimes.html">here</a>
+    <br>Click <a href="openingtimes.html#cafeicon">here</a> for details of our cafe opening times.
+    <br>For details of our latest offers please <a href="mailto:phemmyster@yahoo.com">send us an email</a>.
+    </p>>
+    <section><a href="zooexperiences.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ZooExperience','','images/zooexperiences2.png',1)"><img src="images/zooexperiences.png" alt="Zoo experience Roller" width="255" height="170" id="ZooExperience"></a></a>
+    <a href="groupvisits.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('GroupVisitRoller','','images/groupvisits2.png',1)"><img src="images/groupvisits.png" alt="Group Visit Roller " width="255" height="170" id="GroupVisitRoller"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('snakesAlive','','images/snakesalive2.png',1)"><img src="images/snakesalive.png" alt="Snakes Alive Roller" width="255" height="170" id="snakesAlive"></a></section>
+  <!-- end .content --></article>
+  <footer>Copyright &copy; Nerdster Inc 2016. Last updated
+    <!-- #BeginDate format:Am1 -->July 12, 2016<!-- #EndDate -->
+  </footer>
+<!-- end .container --></div>
+
+</body>
+</html>

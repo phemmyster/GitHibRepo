@@ -1,0 +1,40 @@
+@charset "utf-8";
+h1  {
+	font-size: 2em;
+	font-family: league-gothic;
+	font-style: normal;
+	font-weight: 400;
+}
+h2 {
+	font-family: bitter;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.2em;
+}
+nav   {
+	background-color: #222325;
+	color: #FCFCFC;
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+footer {
+	background-color: #222325;
+	color: #FFFFFF;
+	font-size: x-small;
+	text-align: center;
+	margin-top: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+
+body {
+	font-style: normal;
+	font-weight: 200;
+	font-family: source-sans-pro;
+}

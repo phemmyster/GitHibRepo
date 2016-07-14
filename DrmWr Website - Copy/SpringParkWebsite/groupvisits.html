@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>New Arrivals</title>
+<link href="css/springspark01.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+</style>
+<meta name="description" content="This page describes the new arrivals at Springs Park.">
+<meta name="keywords" content="wildlife, park, new arrivals, animals">
+</head>
+
+<body>
+<div class="container" style="background-color:#3ADD7A;">
+  <header>
+  	<div style="position:relative;"><img src="images/2012-05-31 Penguins.jpg" width="1020" height="150" alt=""/>
+    <div style="position:absolute; top: 20px; left:0; width:100%; text-align:center; font-size:36pt; color:#FFFFFF; f">Request a Group Visit</div>
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="newarrivals.html">New Arrivals</a></li>
+      <li><a href="openingtimes.html">Opening Times</a></li>
+      <li><a href="parkmap.html">Park Map</a></li>
+    </ul>
+  </nav>
+  <div class="sidebar1"><!-- end .sidebar1 -->
+    <p>&nbsp;</p>
+    <p><img src="images/firstplace.png" alt="" width="93" height="126" class="centeredimage"/></p>
+    <p>Best wildlife park 2015</p>
+  </div>
+  <article class="content">
+    <h1>Group Visits</h1>
+    <section style="background-color:#3ADD7A;">
+      <form method="post" id="groupVisit01" action="" >
+        <p>&nbsp;</p>
+        <label for="firstName">First Name:</label>
+        <input name="firstName" type="text" required id="firstName" form="groupVisit01" placeholder="first name" tabindex="1" size="60" maxlength="40">
+        <br><br>
+<p>
+          <label for="surnameName">Surname Name :</label>
+          <input name="surnameName" type="text" required id="surnameName" form="groupVisit01" placeholder="Surname"  tabindex="2" size="60" maxlength="40">
+        </p>
+        
+        <p>
+          <label for="email">Email Address:</label>
+          <input name="email" type="email" required id="email" form="groupVisit01" placeholder="me@email.com" tabindex="3" size="60" maxlength="40">
+        </p>
+        <p>
+          <label for="number">Number in Group:</label>
+           <input name="NumberInGroup" type="number" required id="NumberInGroup" form="groupVisit01" max="80" min="5" tabindex="4">
+        <label for="DateOfVisit">Date of Visit:</label>
+        <input name="DateOfVisit" type="date" required id="DateOfVisit" form="groupVisit01" tabindex="5">
+        </p>
+        <p>
+          <label>
+            <input type="radio" name="GroupType" value="children" id="GroupType_0" form="groupVisit01" tabindex="6" >
+          Children</label>
+          <br>
+          <label>
+            <input type="radio" name="GroupType" value="adults" id="GroupType_1" form="groupVisit01" tabindex="7" >
+            Adult</label>
+          <br>
+          <label>
+            <input name="GroupType" type="radio" required id="GroupType_2" form="groupVisit01"  tabindex="8" value="mixed" checked>
+            Mixed</label>
+        </p>
+        
+        <p>
+          <input name="newsletter" type="checkbox" id="newsletter" form="groupVisit01"  tabindex="9" value="letterNews" checked>
+          <label for="newsletter">Tick to subscripe to our newsletter</label>
+        </p>
+        
+        <p>
+          <input name="marketingOptin" type="checkbox" id="marketingOptin" form="groupVisit01"   tabindex="10" value="OptIn" checked>
+          <label for="marketingOptin">Tick to accept marketing information from us!</label>
+        </p>
+        
+        <p>
+          <input name="submit" type="submit" id="submit" form="groupVisit01" value="Submit">
+           <input type="reset" name="reset" id="reset" value="Reset">
+           <br>
+        </p>
+      </form>
+    </section>
+  <!-- end .content --></article>
+  <footer>Copyright &copy; Nerdster Inc. 2016. Last updated
+    <!-- #BeginDate form><!-- #BeginDate format:Am1 -->July 11, 2016<!-- #EndDate -->
+    <!--end .container --></footer>
+</div>
+</body>
+</html>
